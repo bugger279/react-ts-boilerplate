@@ -41,6 +41,11 @@ label {
   color: ${({theme}: GlobalThemeProps) => theme.label}
 }
 
+button {
+  background-color: ${({theme}) => theme.text};
+  color: ${({theme}) => theme.background}
+}
+
 `;
 
 export default withTheme(GlobalStyles);

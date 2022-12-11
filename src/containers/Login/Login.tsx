@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {z} from "zod";
-import {Form, useForm} from "../utilities/forms";
-import {Input} from "../components/formComponents/input";
+import {Form, useForm} from "../../utils/Forms";
+import {Input} from "../../components/Input";
 
 const signUpFormSchema = z.object({
   firstName: z.string().min(3, "First Name must be atleast 3 characters long!"),

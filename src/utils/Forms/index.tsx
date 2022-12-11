@@ -10,7 +10,7 @@ import {
   useFormContext,
 } from "react-hook-form";
 import {ZodSchema, TypeOf} from "zod";
-import {removeDoubleQuotes} from "./strings/extractString";
+import {removeDoubleQuotes} from "../strings/extractString";
 
 interface UseFormProps<T extends ZodSchema<any>> extends useHookFormProps<TypeOf<T>> {
   schema: T;

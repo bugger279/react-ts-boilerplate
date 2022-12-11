@@ -1,5 +1,5 @@
 import "./styles/scss/main.scss";
-import Login from "./components/Login";
+import Login from "./containers/Login/Login";
 import {ThemeProvider} from "styled-components";
 import ThemeContext from "./contexts/ThemeContext";
 import {darkTheme, lightTheme} from "./styles/styles/themes";

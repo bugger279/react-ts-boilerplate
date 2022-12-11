@@ -1,5 +1,5 @@
 import React, {ComponentProps, forwardRef} from "react";
-import {FieldError} from "../../utilities/forms";
+import {FieldError} from "../../utils/Forms";
 
 interface InputProps extends ComponentProps<"input"> {
   label: string;
