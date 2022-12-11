@@ -1,9 +1,9 @@
-import "./general/scss/main.scss";
+import "./styles/scss/main.scss";
 import Login from "./components/Login";
 import {ThemeProvider} from "styled-components";
 import ThemeContext from "./contexts/ThemeContext";
-import {darkTheme, lightTheme} from "./general/styles/themes";
-import GlobalStyles from "./general/styles/Global";
+import {darkTheme, lightTheme} from "./styles/styles/themes";
+import GlobalStyles from "./styles/styles/Global";
 
 const App = () => {
   return (
