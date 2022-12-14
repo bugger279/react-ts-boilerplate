@@ -15,10 +15,9 @@ const App = () => {
     <ThemeContext>
       <ThemeProvider theme={darkTheme}>
         <GlobalStyles />
-        {/* <Login /> */}
         <APITest />
         <Login />
-        <p style={{color: "#fff"}}>
+        <p>
           A text <Unicons.UilWhatsapp style={{color: "red"}} />
         </p>
       </ThemeProvider>
