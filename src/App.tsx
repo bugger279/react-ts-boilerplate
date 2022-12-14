@@ -7,6 +7,7 @@ import {
   // lightTheme
 } from "./styles/styles/themes";
 import GlobalStyles from "./styles/styles/Global";
+import APITest from "./containers/APITest/APITest";
 import * as Unicons from "@iconscout/react-unicons";
 
 const App = () => {
@@ -14,6 +15,8 @@ const App = () => {
     <ThemeContext>
       <ThemeProvider theme={darkTheme}>
         <GlobalStyles />
+        {/* <Login /> */}
+        <APITest />
         <Login />
         <p style={{color: "#fff"}}>
           A text <Unicons.UilWhatsapp style={{color: "red"}} />
